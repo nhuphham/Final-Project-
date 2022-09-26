@@ -5,7 +5,7 @@ export default class AuthForm extends React.Component {
     super(props);
     if (this.props.action === 'sign-in') {
       this.state = {
-        username: 'TestUser',
+        username: 'TestUser2222',
         password: 'password'
       };
     } else {
@@ -134,3 +134,6 @@ export default class AuthForm extends React.Component {
     }
   }
 }
+
+yesterday i finished my nav bar, login form, and footer on the front end and implemented some bootstrap to it.. today
+im going to work the authorization form today for the login page
