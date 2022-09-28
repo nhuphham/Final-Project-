@@ -4,7 +4,7 @@ body {
   background-color: rgb(241, 241, 241);
 }
 
-input {
+/* input {
   width: 100%;
   margin: 5px 0 10px;
   padding: 10px;
@@ -13,14 +13,9 @@ input {
   font-size: 17px;
   margin-bottom: 20px;
   margin-top: 20px;
-}
+} */
 
-input:focus {
-  outline: none !important;
-  border: 1px solid rgb(0, 0, 0);
-}
-
-.code-journal-header-text {
+.header-text {
   font-family: "Open Sans", sans-serif;
   color: rgb(255, 255, 255);
   white-space: nowrap;
@@ -281,8 +276,8 @@ i {
   border-radius: 4px;
   cursor: pointer;
   *margin-left: 0.3em;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
 }
 
 .btn:hover,
@@ -370,18 +365,23 @@ body {
 
 input {
   width: 100%;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 15px !important;
+  margin-top: 15px !important;
   background: rgb(248, 248, 248);
   border: none;
   outline: none;
   padding: 10px;
   font-size: 13px;
-  color: #fff;
+  color: rgb(59, 59, 59);
   border: 1px solid rgba(170, 170, 170, 0.3);
   border-radius: 4px;
   box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.2), 0 1px 1px rgba(255, 255, 255, 0.2);
   transition: box-shadow 0.5s ease;
+}
+
+input:focus {
+  outline: none !important;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .login {

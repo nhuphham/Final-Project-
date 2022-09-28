@@ -25,41 +25,14 @@
 
         <img src="/book-logo1.png" alt="book-logo" class="book-logo">
 
-        <h1 class="code-journal-header-text"> BLOG ME </h1>
-        <h4 class="entries-header"> <a href="#" id="explore-header"> Explore </a> </h4>
-        <h4 class="entries-header"> <a href="#" id="blogs-header"> Blogs </a> </h4>
-        <h4 class="entries-header"> <a href="#" id="account-header"> My Account </a> </h4>
+        <h1 class="header-text"> BLOG ME </h1>
+        <h4 class="entries-header"> <a href="http://localhost:5501/server/public/pages/explore.html" id="explore-header"> Explore </a> </h4>
+        <h4 class="entries-header"> <a href="http://localhost:5501/server/public/pages/blogs.html" id="blogs-header"> Blogs </a> </h4>
+        <h4 class="entries-header"> <a href="http://localhost:5501/server/public/pages/index.html" id="account-header"> My Account </a> </h4>
       </div>
     </div>
   </header>
-  <div class="container">
-    <div data-view="entry-form" id="entry-form">
-      <form class="hidden" id="form" action="/action_page.php">
-        <h2> New Entry </h2>
-        <div class="row">
-          <div class="column-half">
-            <img class="placeholder" src="images/placeholder-image-square.jpg" alt="placeholder-image-square">
-          </div>
-          <div class="column-half">
-            <label for="title">Title</label>
-            <input id="title" type="text" name="title" size="100" required />
-            <label for="photo"> Photo URL </label>
-            <input id="photoUrl" type="text" name="photo" size="100" required />
-          </div>
-          <div class="column-full">
-            <label for="notes">Notes</label>
-            <textarea id="notes" name="notes" rows="10" required></textarea>
-            <div id="button">
-              <input type="submit" name="save" id="submit" value="SAVE">
-            </div>
 
-            <div class="delete-entry">
-              <a href="#" class="delete-entry hidden" id="delete-button"> Delete Entry </a>
-            </div>
-          </div>
-        </div>
-      </form>
-    </div>
     <div data-view="entries" id="entries">
       <div class="row">
         <div class="column-full" id="entry-root">
@@ -137,7 +110,7 @@
           </li>
 
           <li>
-            <a href="#">Gallery</a>
+            <a href="#">Explore</a>
           </li>
 
           <li>
